@@ -1,3 +1,9 @@
+# nLpDecipher
+
+## Overview
+This project predicts the gender of a sentence that some users write. Given any sentence, the model will output male or female which represents the gender of the user who writes that sentence. We deployed a Django website for user interaction, displaying the result and related evidence in real time. We used L1/L2 norm to extract the most significant words/n-grams that determine the prediction. We also used the package Lime Text Explainer to further support the prediction based on the confidence interval of each feature.
+
+## How to run
 To run the website, first install Django and LIME.
 
 > pip install Django
